@@ -77,8 +77,7 @@ public class StringAnagram {
 	}
 
 	private static Character[] toCharacterArray(String str) {
-		char[] charArray = new char[str.length()];
-		charArray = str.toCharArray();
+		char[] charArray = str.toCharArray();
 		Character[] characterArray = new Character[charArray.length];
 		for (int i = 0; i < charArray.length; i++) {
 			characterArray[i] = charArray[i];
